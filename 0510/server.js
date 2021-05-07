@@ -8,7 +8,7 @@ app.get('/',(req,res)=>{
 
 app.get('/user',(req,res)=>{
     res.send("hello user");
-});
+}
 
 app.listen(3000,()=>{
     console.log('server start port 3000');
